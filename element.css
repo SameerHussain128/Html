@@ -1,0 +1,23 @@
+p,a{
+    color: green;
+}
+
+li{
+    list-style-type: decimal;
+}
+.special{
+    color: brown; font-weight: bold;
+}
+li em {
+    color: rebeccapurple;
+      }
+
+a:hover{
+    color: saddlebrown;
+    text-decoration: red;
+}
+body h1+p .special{
+    color: yellow;
+    background-color: black;
+    padding: 5px ;
+}
